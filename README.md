@@ -7,7 +7,7 @@ Este proyecto es una Pokedex interactiva que permite a los usuarios explorar inf
 Para instalar este proyecto, clona el repositorio a tu máquina local usando el siguiente comando:
 
 ```bash
-git clone url_del_repositorio  
+git clone https://github.com/I210I/Pokedex.git  
 ```  
 
 Una vez clonado, navega al directorio del proyecto y ejecuta doble clic pokedex.html para comenzar a explorar la Pokedex.  
