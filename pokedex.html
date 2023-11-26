@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="./pokemon.js" defer></script>
+
+</head>
+
+<body>
+  <main class="main">
+    <header class="header home">
+      <div class="container">
+        <div class="logo-wrapper">
+          <img src="./assets/pokeball.svg" alt="pokeball" />
+          <h1>Pokedex</h1>
+        </div>
+
+      </div>
+    </header>
+    <section class="pokemon-list">
+      <div class="container">
+        <div class="list-wrapper"></div>
+      </div>
+
+    </section>
+    <footer>
+       <!-- Botones para navegar entre los Pokémon -->
+       <div class="search-wrapper">
+        <diV class="sort-wrap">
+          <img src="./assets/chevron_left.svg" alt="anteriores 100" id="prev-button">
+        </diV>
+        <div class="sort-wrap">
+          <img src="./assets/chevron_right.svg" alt="siguientes 100" id="next-button">
+        </div>
+      </div>
+      <div id="not-found-message">Pokemon not found</div>
+    </footer>
+  </main>
+</body>
+
+</html>
